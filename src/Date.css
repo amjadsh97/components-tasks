@@ -1,0 +1,62 @@
+.date {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-top: 30px;
+  min-height: 500px;
+}
+
+.general {
+  flex: 0.2;
+}
+
+.general__title {
+  color: #ce4adf;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.general__category {
+  color: white;
+  background-color: #c3c3c3;
+  border-radius: 3px;
+  padding: 2px 4px;
+  font-size: 12px;
+}
+
+.general__desc {
+  color: #ce4adf;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 0;
+  padding-right: 20px;
+}
+
+.column {
+  flex: 0.4;
+}
+
+.column__title {
+  color: #ce4adf;
+  font-weight: 500;
+}
+
+.column label {
+  display: block;
+  color: #777777;
+  margin-top: 10px;
+}
+
+.DayPicker_focusRegion {
+  box-shadow: 1px 1px 20px #cacaca;
+}
+
+@media (max-width: 950px) {
+  .date {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=Date.css.map */
